@@ -5,7 +5,6 @@
 }
 
 body {
-  color: #5d6063;
   background-color: #eaedf0;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -16,10 +15,14 @@ body {
   align-items: center;
 }
 
+img {
+  width: 300px;
+}
 .speaker-form-header {
+  color: #fdfdfd;
   text-align: center;
-  background-color: #f6f7f8;
-  border: 1px solid #d6d9dc;
+  background-color: #000000;
+  border: 1px solid #000000;
   border-radius: 3px;
 
   width: 80%;
@@ -33,6 +36,7 @@ body {
 }
 
 .speaker-form {
+  color: #000000;
   background-color: #f6f7f8;
   border: 1px solid #d6d9dc;
   border-radius: 3px;
